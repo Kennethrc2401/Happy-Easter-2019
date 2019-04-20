@@ -57,7 +57,7 @@ html, body {
 /* Greeting- Paragraph Section */
 .greeting-paragraph {
 	text-align: center;
-	padding-bottom: 8px;
+	padding-bottom: 10px;
 }
 
 .greeting-paragraph p {
