@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	background-color: #ACA7C4;
+}
+
+/* NAVBAR Styles */
+.navbar-custom {
+    background-color: #F2C9C9 !important;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #000000;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+.navbar-form button {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/* Greeting Section */
+.greeting-heading {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+.greeting-heading h1 {
+	font-size: 63px;
+	color: #F7F396;
+}
+
+/* Greeting - Image Section */
+.greeting-image {
+	text-align: center;
+	padding-bottom: 5px;
+}
+.greeting-image img{
+	width: 50%;
+	border-radius: 3%;
+	border: 2px solid #F7F396;
+}
+
+.greeting-image img:hover {
+	border-color: #F2C9C9;
+}
+
+/* Greeting- Paragraph Section */
+.greeting-paragraph {
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+.greeting-paragraph p {
+	font-size: 30px;
+}
+
+/* Footer Section */
+footer {
+	padding: 5px 0px 5px 5px;
+	text-align: left;
+	font-size: 14px;
+	background-color: #000000;
+	color: silver;
+}
